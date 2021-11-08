@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/todo-list/node_modules
+/todo-list/.pnp
+/todo-list/.pnp.js
+
+# testing
+/todo-list/coverage
+
+# production
+/todo-list/build
+
+# misc
+/todo-list/.DS_Store
+/todo-list/.env.local
+/todo-list/.env.development.local
+/todo-list/.env.test.local
+/todo-list/.env.production.local
+
+/todo-list/npm-debug.log*
+/todo-list/yarn-debug.log*
+/todo-list/yarn-error.log*
+
+/todo-list/HELP.md
+/todo-list/target/
+/todo-list/!.mvn/wrapper/maven-wrapper.jar
+/todo-list/!**/src/main/**/target/
+/todo-list/!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+/todo-list/.idea
+/todo-list/*.iws
+/todo-list/*.iml
+/todo-list/*.ipr

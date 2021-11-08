@@ -1,0 +1,7 @@
+spring.data.mongodb:
+  database: todo-list
+  uri: mongodb+srv://todo-list-user:1234@todo-list.j8mzz.mongodb.net/todo-list
+
+  # todo-list-user
+  # 1234
+  # mongodb+srv://todo-list-user:1234@todo-list.j8mzz.mongodb.net/test
