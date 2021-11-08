@@ -1,35 +1,35 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/todo-list/node_modules
-/todo-list/.pnp
-/todo-list/.pnp.js
+/todo-app/node_modules
+/todo-app/.pnp
+/todo-app/.pnp.js
 
 # testing
-/todo-list/coverage
+/todo-app/coverage
 
 # production
-/todo-list/build
+/todo-app/build
 
 # misc
-/todo-list/.DS_Store
-/todo-list/.env.local
-/todo-list/.env.development.local
-/todo-list/.env.test.local
-/todo-list/.env.production.local
+/todo-app/.DS_Store
+/todo-app/.env.local
+/todo-app/.env.development.local
+/todo-app/.env.test.local
+/todo-app/.env.production.local
 
-/todo-list/npm-debug.log*
-/todo-list/yarn-debug.log*
-/todo-list/yarn-error.log*
+/todo-app/npm-debug.log*
+/todo-app/yarn-debug.log*
+/todo-app/yarn-error.log*
 
-/todo-list/HELP.md
-/todo-list/target/
-/todo-list/!.mvn/wrapper/maven-wrapper.jar
-/todo-list/!**/src/main/**/target/
-/todo-list/!**/src/test/**/target/
+/todo-api/HELP.md
+/todo-api/target/
+/todo-api/!.mvn/wrapper/maven-wrapper.jar
+/todo-api/!**/src/main/**/target/
+/todo-api/!**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-/todo-list/.idea
-/todo-list/*.iws
-/todo-list/*.iml
-/todo-list/*.ipr
+/todo-api/.idea
+/todo-api/*.iws
+/todo-api/*.iml
+/todo-api/*.ipr
