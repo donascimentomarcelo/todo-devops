@@ -1,4 +1,4 @@
-FROM node:8 as builder
+FROM node:12.22.7 as builder
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  todo-api:
+    image: "donascimentomarcelo/todo-api:1.0"
+    ports:
+     - "8080:8080"
+  frontend:
+    image: "donascimentomarcelo/todo-app:1.0"
+    ports:
+     - "80:80"
