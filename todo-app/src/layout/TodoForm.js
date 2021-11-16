@@ -19,7 +19,7 @@ export class TodoForm extends Component {
     handleSubmit = ev => {
         const {name, description} = this.state;
         Axios
-            .post('http://localhost:8080/todo', {name, description})
+            .post('http://devops.local:30100/todo', {name, description})
             .then(resp => {
                 const { data } = resp;
                 this.setState({successMessage: true});

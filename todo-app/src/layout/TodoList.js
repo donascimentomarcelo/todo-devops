@@ -14,7 +14,7 @@ export class TodoList extends Component {
 
     delete = (id, ev) => {
         Axios
-            .delete(`http://localhost:8080/todo/${id}`)
+            .delete(`http://devops.local:30100/todo/${id}`)
             .then(() => {
                 this.setState({successMessage: true});
                 this.props.removeFromTable(id);

@@ -21,7 +21,7 @@ export class TodoApp extends Component {
     getAll = () => {
         this.setState({loading: true});
         Axios
-            .get('http://localhost:8080/todo')
+            .get('http://devops.local:30100/todo')
             .then(resp => {
                 const { data } = resp;
                 this.setState({todos: data});
